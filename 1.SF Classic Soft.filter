@@ -454,9 +454,22 @@ PlayAlertSound 3 300
 Show
     BaseType "Waystone"
 	WaystoneTier >= 14
-    Rarity <= Rare
-    SetTextColor 0 0 0 255
-    SetBackgroundColor 235 235 235 255
+    Rarity = Magic
+    SetTextColor 0 8 250 255
+	SetBorderColor 0 8 250 255
+	SetBackgroundColor 255 255 255 255
+	SetFontSize 40
+	PlayEffect Pink
+	MinimapIcon 0 White Star
+PlayAlertSound 5 300
+
+Show
+    BaseType "Waystone"
+	WaystoneTier >= 14
+    Rarity = Rare
+	SetTextColor 189 158 0 255
+	SetBorderColor 235 198 9 255
+	SetBackgroundColor 255 255 255 255
     SetFontSize 40		
 	PlayEffect Pink
 	MinimapIcon 0 White Star
@@ -464,11 +477,50 @@ PlayAlertSound 5 300
 
 Show
     BaseType "Waystone"
+	WaystoneTier >= 14
+    Rarity < Magic
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 255 255 255 255
+    SetFontSize 35		
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+PlayAlertSound 5 300
+
+Show
+    BaseType "Waystone"
 	WaystoneTier >= 9
 	WaystoneTier <= 13
-    Rarity <= Rare
-    SetTextColor 255 255 255 255
-    SetBackgroundColor 20 20 0 255
+    Rarity = Rare
+	SetTextColor 189 158 0 255
+	SetBorderColor 235 198 9 255
+	SetBackgroundColor 255 255 255 255
+    SetFontSize 35		
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+PlayAlertSound 4 300
+
+Show
+    BaseType "Waystone"
+	WaystoneTier >= 9
+	WaystoneTier <= 13
+    Rarity = Magic
+	SetTextColor 0 8 250 255
+	SetBorderColor 0 8 250 255
+	SetBackgroundColor 255 255 255 255
+    SetFontSize 35		
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+PlayAlertSound 4 300
+
+Show
+    BaseType "Waystone"
+	WaystoneTier >= 9
+	WaystoneTier <= 13
+    Rarity < Magic
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 255 255 255 255
     SetFontSize 35		
 	PlayEffect Pink
 	MinimapIcon 0 Pink Star
