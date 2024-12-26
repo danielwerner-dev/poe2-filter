@@ -1,0 +1,871 @@
+
+#===============================================================================================================
+#  StarFox
+#===============================================================================================================
+
+# Twitch - https://www.twitch.tv/starf0xttv
+#===============================================================================================================
+# Gold
+#===============================================================================================================
+
+Show 
+	StackSize >= 3001
+	BaseType == "Gold"
+	SetFontSize 40
+	SetTextColor 255 255 0 255
+	SetBorderColor 255 255 0 255
+	SetBackgroundColor 0 0 0 255
+	PlayEffect Orange
+	MinimapIcon 1 Yellow Cross
+	
+Show 
+	StackSize >= 500
+	BaseType == "Gold"
+	SetFontSize 35
+	SetTextColor 255 255 0 255
+	SetBorderColor 255 255 0 255
+	SetBackgroundColor 0 0 0 255
+	PlayEffect Orange Temp
+	MinimapIcon 1 White Cross
+
+Show 
+	StackSize >= 100
+	BaseType == "Gold"
+	SetFontSize 32
+	SetTextColor 255 255 0 255
+	SetBorderColor 255 255 0 255
+	SetBackgroundColor 0 0 0 255
+	PlayEffect Orange Temp
+	MinimapIcon 1 White Cross
+
+Show 
+	StackSize >= 50
+	BaseType == "Gold"
+	SetFontSize 29
+	SetTextColor 255 255 0 255
+	SetBorderColor 255 255 0 255
+	SetBackgroundColor 0 0 0 255
+	MinimapIcon 2 Grey Cross
+
+Show 
+	BaseType == "Gold"
+	SetFontSize 27
+	SetTextColor 255 255 0 255
+	SetBorderColor 255 255 0 255
+	SetBackgroundColor 0 0 0 180
+	MinimapIcon 2 Grey Cross
+
+#===============================================================================================================
+# Tablet
+#===============================================================================================================
+
+
+Show 
+	Rarity Normal Magic Rare
+	Class == "Tablet"
+	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Precursor Tablet" "Expedition Precursor Tablet" "Ritual Precursor Tablet"
+	SetFontSize 40
+	SetTextColor 206 0 138 255
+	SetBorderColor 206 0 138 255
+	SetBackgroundColor 0 0 0 255
+	PlayEffect Red
+	MinimapIcon 0 Red Square
+PlayAlertSound 2 300
+
+
+#===============================================================================================================
+# show BEST bases 
+#===============================================================================================================
+
+#------------------------------------
+# weapon
+#------------------------------------
+
+Show 
+	Rarity Rare
+	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "Two Hand Axes" "Two Hand Maces" "Wands" "Quarterstaves" "Crossbows" "Spears" "Flails"
+	BaseType == "Advanced Bombard Crossbow" "Expert Bombard Crossbow" "Bombard Crossbow" "Expert Slicing Quarterstaff" "Rattling Sceptre" "Wrath Sceptre"
+	#ItemLevel >= 75
+	#Sockets >= 2
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+
+#------------------------------------
+# Wand
+#------------------------------------
+
+Show
+	Rarity Rare
+	Class = "Wand" "Focus"
+	#BaseType = "Expert Voodoo Focus" "Expert Crystal Focus" "Expert Plumed Focus" "Expert Antler Focus"
+	ItemLevel >= 65
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Red
+	MinimapIcon 0 Red Square
+	PlayAlertSound 2 300
+
+
+#------------------------------------
+# Helmets
+#------------------------------------
+
+Show 
+	Rarity Rare 
+	Class == "Helmets"
+    BaseType == "Expert Soldier Greathelm" "Expert Spired Greathelm" "Expert Spired Greathelm" "Expert Felt Cap" "Expert Swathed Cap" "Expert Hunter Hood" "Expert Wicker Tiara" "Expert Chain Tiara" "Expert Feathered Tiara" "Expert Guarded Helm" "Expert Cowled Helm" "Expert Shielded Helm" "Expert Horned Crown" "Expert Martyr Crown" "Expert Heavy Crown" "Expert Face Mask" "Expert Veiled Mask" "Expert Tribal Mask"
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+	
+#------------------------------------
+# Boots
+#------------------------------------
+
+Show 
+	Rarity Rare 
+	Class == "Boots"
+    BaseType == "Expert Iron Greaves" "Expert Trimmed Greaves" "Expert Stone Greaves" "Expert Laced Boots" "Expert Steeltoe Boots" "Expert Lizardscale Boots" "Expert Wrapped Sandals" "Expert Silk Slippers" "Expert Feathered Sandals" "Expert Mail Sabatons" "Expert Braced Sabatons" "Expert Stacked Sabatons" "Expert Padded Leggings" "Expert Secured Leggings" "Expert Pelt Leggings" "Expert Frayed Shoes" "Expert Threaded Shoes" "Expert Hunting Shoes"
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Red
+	MinimapIcon 0 Red Square
+	PlayAlertSound 2 300
+
+#------------------------------------
+# Gloves
+#------------------------------------
+
+Show 
+	Rarity Rare 
+	Class == "Gloves"
+    BaseType == "Expert Moulded Mitts" "Expert Bolstered Mitts" "Expert Moulded Mitts" "Expert Sectioned Bracers" "Expert Spined Bracers" "Expert Sombre Gloves" "Expert Jewelled Gloves" "Expert Intricate Gloves" "Expert Ringmail Gauntlets" "Expert Layered Gauntlets" "Expert Doubled Gauntlets" "Expert Rope Cuffs" "Expert Aged Cuffs" "Expert Goldcast Cuffs" "Expert Gauze Wraps" "Expert Spiral Wraps" "Expert Linen Wraps"
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+	
+#------------------------------------
+# Shields
+#------------------------------------ 		
+
+Show 
+    Rarity Rare 
+	Class == "Shields"
+    BaseType == "Expert Stone Tower Shield" "Expert Rampart Tower Shield" "Expert Braced Tower Shield"
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+#------------------------------------
+# Focus
+#------------------------------------ 		
+
+Show 
+    Rarity Rare 
+	Class == "Foci"
+    BaseType == "Expert Antler Focus" "Expert Crystal Focus" "Expert Plumed Focus"
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+
+#------------------------------------
+# Quivers
+#------------------------------------
+
+Show 
+	Rarity Rare 
+	Class == "Quivers"
+	BaseType == "Primed Quiver"
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+	
+#------------------------------------
+# Body Armours
+#------------------------------------
+
+Show 
+	Rarity Rare 
+	Class == "Body Armours"
+    BaseType == "Expert Waxed Jacket" "Expert Keth Raiment" "Expert Altar Robe" "Expert Studded Vest" "Expert Rogue Armour" "Expert Sacrificial Mantle" "Expert Pelt Mantle" "Expert Iron Cuirass" "Expert Scale Mail" "Expert Pelt Mantle" "Expert Shaman Mantle"
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+
+#------------------------------------
+# Amulet
+#------------------------------------
+
+Show 
+	Rarity Rare 
+	Class == "Amulet"
+    BaseType == "Stellar Amulet" "Solar Amulet" "Lunar Amulet"
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+
+#------------------------------------
+# Belt
+#------------------------------------
+
+Show 
+	Rarity Rare 
+	Class == "Belt"
+    BaseType == "Golden Obi" "Heavy Belt"
+SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+	
+#------------------------------------
+# Ring
+#------------------------------------
+
+Show 
+	Rarity Rare 
+	Class == "Ring"
+    BaseType == "Amethyst Ring" "Prismatic Ring" "Gold Ring"
+	SetFontSize  30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+	
+
+#===============================================================================================================
+# show top CHANCE bases 
+#===============================================================================================================
+
+
+#------------------------------------
+# Amulet
+#------------------------------------
+
+Show 
+	Rarity Normal
+	Class == "Amulet"
+    BaseType == "Azure Amulet" "Amber Amulet" "Jade Amulet" "Stellar Amulet" "Solar Amulet" "Gold Amulet"
+	SetFontSize 30
+	SetTextColor 255 221 174 255
+	SetBorderColor 255 221 174 255
+	SetBackgroundColor 0 0 0 150
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+
+#------------------------------------
+# Belt
+#------------------------------------
+
+Show 
+	Rarity Normal 
+	Class == "Belt"
+    BaseType == "Ornate Belt" "Heavy Belt" "Utility Belt"
+	SetFontSize 30
+	SetTextColor 255 221 174 255
+	SetBorderColor 255 221 174 255
+	SetBackgroundColor 0 0 0 150
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+	
+#------------------------------------
+# Ring
+#------------------------------------
+
+Show 
+	Rarity Normal 
+	Class == "Ring"
+    BaseType == "Lazuli Ring" "Sapphire Ring" "Topaz Ring" "Emerald Ring" "Pearl Ring" "Gold Ring"
+	SetFontSize 30
+	SetTextColor 255 221 174 255
+	SetBorderColor 255 221 174 255
+	SetBackgroundColor 0 0 0 150
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+
+
+#------------------------------------
+#  Jewels
+#------------------------------------
+
+Show
+	Rarity Magic Rare
+	BaseType == "Emerald" "Diamond" "Ruby" "Sapphire" "Time-Lost Emerald" "Time-Lost Diamond" "Time-Lost Ruby" "Time-Lost Sapphire" "Timeless Jewel"
+	SetFontSize 30
+	SetTextColor 0 255 255 255
+	SetBorderColor 0 255 255 255
+	SetBackgroundColor 0 0 0 205
+    MinimapIcon 2 Cyan Triangle
+    PlayEffect Cyan
+PlayAlertSound 2 300
+
+#------------------------------------
+#  Relics
+#------------------------------------
+
+Show 
+	Rarity Normal Magic Rare
+	Class == "Relics"
+	BaseType == "Coffer Relic" "Urn Relic" "Vase Relic" "Incense Relic" "Tapestry Relic" "Seal Relic" "Amphora Relic"
+	SetFontSize 30
+	SetTextColor 0 255 127 255
+	SetBorderColor 0 255 127 255
+	SetBackgroundColor 0 0 0 205
+    MinimapIcon 2 Cyan Triangle
+    PlayEffect Cyan
+PlayAlertSound 2 300
+	
+#===============================================================================================================
+# Hide - Normal and Magic
+#===============================================================================================================
+
+Hide
+	Rarity Normal Magic
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Foci" "Quarterstaves" "Crossbows"
+	AreaLevel >= 65
+	SetFontSize 18
+	SetBorderColor 0 0 0 0
+	SetBackgroundColor 20 20 0 0
+	DisableDropSound True
+
+#===============================================================================================================
+# Flasks & Charms 
+#===============================================================================================================
+
+Show 
+	Rarity Rare Normal Magic
+	Class == "Charms"
+	SetFontSize 30
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 0 75 30 205
+	PlayEffect Blue
+	MinimapIcon 0 Blue Diamond
+
+Hide 
+	Rarity Normal Magic
+	Class == "Mana Flasks"
+	AreaLevel >= 65
+	SetFontSize 18
+	SetBorderColor 0 0 0 0
+	SetBackgroundColor 20 20 0 0
+	DisableDropSound True
+Hide 
+	Rarity Normal Magic
+	Class == "Life Flasks"
+	AreaLevel >= 65
+	SetFontSize 18
+	SetBorderColor 0 0 0 0
+	SetBackgroundColor 20 20 0 0
+	DisableDropSound True
+	
+	
+#--------------------------
+# Uncut Gems
+#--------------------------
+
+Hide
+ItemLevel >= 1
+ItemLevel <= 10
+BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+
+Hide
+ItemLevel <= 1
+BaseType "Uncut Support Gem"
+
+Show
+ItemLevel <= 19
+BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+SetFontSize 35
+SetTextColor 0 255 0 255
+SetBorderColor 0 255 0
+SetBackgroundColor 0 0 0
+PlayAlertSound 2 300
+PlayEffect Cyan
+MinimapIcon 1 Cyan Triangle
+
+
+Show
+BaseType "Uncut Support Gem"
+ItemLevel >= 2
+SetTextColor 20 240 240
+SetBorderColor 20 240 240
+PlayAlertSound 2 300
+PlayEffect Cyan
+MinimapIcon 1 Cyan Triangle
+SetFontSize 30
+
+Show
+BaseType "Uncut Skill Gem" "Uncut Skill Gem"
+ItemLevel >= 20
+SetFontSize 40
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+PlayAlertSound 6 300
+PlayEffect Cyan
+MinimapIcon 1 Cyan Triangle
+
+#--------------------------
+# Overrides - Uniques, Valuables
+#--------------------------
+
+Show
+    Rarity Unique
+    SetTextColor 175 96 37 255
+    SetBorderColor 175 96 37 255
+    SetBackgroundColor 53 13 13 255
+    PlayEffect Brown
+    MinimapIcon 2 Brown Star
+    SetFontSize 35
+PlayAlertSound 3 300
+
+#===============================================================================================================
+#  Normal Waystone
+#===============================================================================================================
+
+Show
+    BaseType "Waystone"
+	WaystoneTier >= 14
+    Rarity = Magic
+    SetTextColor 0 8 250 255
+	SetBorderColor 0 8 250 255
+	SetBackgroundColor 255 255 255 255
+	SetFontSize 40
+	PlayEffect Pink
+	MinimapIcon 0 White Star
+PlayAlertSound 5 300
+
+Show
+    BaseType "Waystone"
+	WaystoneTier >= 14
+    Rarity = Rare
+	SetTextColor 189 158 0 255
+	SetBorderColor 235 198 9 255
+	SetBackgroundColor 255 255 255 255
+    SetFontSize 40		
+	PlayEffect Pink
+	MinimapIcon 0 White Star
+PlayAlertSound 5 300
+
+Show
+    BaseType "Waystone"
+	WaystoneTier >= 14
+    Rarity < Magic
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 255 255 255 255
+    SetFontSize 35		
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+PlayAlertSound 5 300
+
+Show
+    BaseType "Waystone"
+	WaystoneTier >= 9
+	WaystoneTier <= 13
+    Rarity = Rare
+	SetTextColor 255 255 0 255
+	SetBorderColor 255 255 0 255
+	SetBackgroundColor 255 255 255 255
+    SetFontSize 35		
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+PlayAlertSound 4 300
+
+Show
+    BaseType "Waystone"
+	WaystoneTier >= 9
+	WaystoneTier <= 13
+    Rarity = Magic
+	SetTextColor 0 8 250 255
+	SetBorderColor 0 8 250 255
+	SetBackgroundColor 255 255 255 255
+    SetFontSize 35		
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+PlayAlertSound 4 300
+
+Show
+    BaseType "Waystone"
+	WaystoneTier >= 9
+	WaystoneTier <= 13
+    Rarity < Magic
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 255 255 255 255
+    SetFontSize 35		
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+PlayAlertSound 4 300
+
+Hide
+    BaseType "Waystone"
+	WaystoneTier <= 8
+    Rarity <= Rare
+	
+
+#===============================================================================================================
+# Currency 
+#===============================================================================================================
+
+Show 
+	Class == "Stackable Currency"
+	BaseType ==  "Exalted Orb" "Chaos Orb"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+PlayAlertSound 2 300
+
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Divine Orb" "Mirror of Kalandra" "Perfect Jeweller's Orb" "Albino Rhoa Feather" "Mirror Shard" "Orb of Annulment"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+PlayAlertSound 6 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Mirror of Kalandra" "Perfect Jeweller's Orb" "Albino Rhoa Feather" "Mirror Shard" 
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+PlayAlertSound 6 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Orb of Alchemy" "Orb of Annulment" "Greater Jeweller's Orb" "Glassblower's Bauble" "Orb of Chance" "Gemcutter's Prism" "Orb of Annulment"
+	SetFontSize 42
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 240 90 35 255
+	MinimapIcon 0 Red Triangle
+	PlayEffect Red	
+PlayAlertSound 2 300
+
+
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Regal Orb" "Vaal Orb" "Lesser Jeweller's Orb"
+	SetFontSize 38
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 210 105 30 255
+	MinimapIcon 0 Red Circle
+	PlayEffect Red	
+PlayAlertSound 2 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Orb of Transmutation" "Orb of Augmentation" 
+	SetFontSize 32
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 160 82 45 225
+	PlayEffect Red
+	MinimapIcon 0 Red Circle
+PlayAlertSound 2 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Artificer's Shard" "Artificer's Orb" "Armourer's Scrap" "Blacksmith's Whetstone" "Arcanist's Etcher" "Regal Shard" "Chance Shard"
+	SetFontSize 32
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 203 108 27 255
+	PlayEffect Red
+	MinimapIcon 0 Red Circle
+PlayAlertSound 2 300	
+
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Artificer's Shard" "Armourer's Scrap" "Blacksmith's Whetstone" "Arcanist's Etcher" "Regal Shard" "Chance Shard"
+	SetFontSize 32
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 203 108 27 255
+	PlayEffect Red
+	MinimapIcon 0 Red Circle
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Transmutation Shard"
+	SetFontSize 30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 139 69 19 180
+	PlayEffect White
+	
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Scroll of Wisdom"
+	SetFontSize 28
+	SetBorderColor 100 50 30 255
+	SetBackgroundColor 20 20 0 255	
+
+#===============================================================================================================
+# Expedition 
+#===============================================================================================================
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Broken Circle Artifact" "Order Artifact" "Exotic Coinage" "Black Scythe Artifact" "Sun Artifact"
+	SetFontSize 33
+	SetTextColor 255 85 85 255
+	SetBackgroundColor 61 8 8 255
+	SetBorderColor 255 85 85 255
+	MinimapIcon 1 Purple UpsideDownHouse
+PlayAlertSound 2 300
+
+Show
+	Class == "Expedition Logbooks"
+	SetFontSize 45
+	SetTextColor 255 85 85 255
+	SetBackgroundColor 61 8 8 255
+	SetBorderColor 255 85 85 255
+	MinimapIcon 1 Purple UpsideDownHouse
+PlayAlertSound 2 300
+
+#===============================================================================================================
+# Delirum Orbs
+#===============================================================================================================
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Distilled Despair" "Distilled Fear" "Distilled Isolation" "Distilled Suffering"
+	SetFontSize 45
+	SetTextColor 238 130 238 255
+	SetBorderColor 238 130 238 255
+	SetBackgroundColor 0 0 0 225
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+PlayAlertSound 6 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Distilled Disgust" "Distilled Greed"
+	SetFontSize 40
+	SetTextColor 147 112 219 255
+	SetBorderColor 75 0 130 255
+	SetBackgroundColor 0 0 0 225
+	PlayEffect Red
+	MinimapIcon 2 Red Hexagon
+PlayAlertSound 2 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType "Distilled Envy" "Distilled Greed" "Distilled Ire" "Distilled Paranoia" "Distilled Guilt"
+	SetFontSize 35
+	SetTextColor 186 85 211 255
+	SetBorderColor 75 0 130 255
+	SetBackgroundColor 0 0 0 225
+	PlayEffect Grey
+	MinimapIcon 0 Grey Hexagon
+PlayAlertSound 2 300
+
+#------------------------------------
+#   Breach Orbs
+#------------------------------------
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Breachstone"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 0 255 255
+	SetBackgroundColor 0 0 255 255
+	PlayEffect Blue
+	MinimapIcon 0 Blue Circle
+PlayAlertSound 6 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Sibilant Catalyst" 
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 0 255 255
+	SetBackgroundColor 0 0 255 235
+	PlayEffect Blue
+	MinimapIcon 0 Blue Circle
+PlayAlertSound 2 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType "Adaptive Catalyst" "Chayula's Catalyst" "Flesh Catalyst" "Reaver Catalyst" "Skittering Catalyst" "Uul-Netol's Catalyst" "Breach Splinter" "Carapace Catalyst" "Esh's Catalyst" "Neural Catalyst" "Tul's Catalyst" "Xoph's Catalyst"
+	SetFontSize 35
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 0 255 255
+	SetBackgroundColor 0 0 255 215
+	PlayEffect Blue
+	MinimapIcon 0 Blue Circle
+PlayAlertSound 2 300
+
+Show 
+	Rarity Rare Normal Magic
+	Class == "Rings"
+	BaseType == "Breach Ring"
+	SetFontSize 30
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 25 25 112 235
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Diamond
+PlayAlertSound 2 300
+
+#------------------------------------
+#   Essence Orbs
+#------------------------------------
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Greater Essence of Enhancement" "Greater Essence of Flames" "Greater Essence of Electricity" "Greater Essence of Haste" "Greater Essence of Torment" "Greater Essence of Ruin"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 128 0 128 230
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+PlayAlertSound 6 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Greater Essence of Battle" "Greater Essence of the Mind" "Greater Essence of Ice" "Greater Essence of the Body" "Greater Essence of Sorcery"
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 75 0 130 220
+	PlayEffect Red
+	MinimapIcon 2 Red Hexagon
+PlayAlertSound 2 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType "Essence of the Body" "Essence of Enhancement" "Essence of Flames" "Essence of Electricity" "Essence of Battle" "Essence of Haste" "Essence of the Mind" "Essence of Torment" "Essence of Ice" "Essence of Ruin" "Essence of Sorcery" "Essence of the Infinite" "Greater Essence of the Infinite"
+	SetFontSize 35
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 72 61 139 190
+	PlayEffect White
+	MinimapIcon 0 White Hexagon
+PlayAlertSound 2 300
+
+#------------------------------------
+#   Ritual Orbs
+#------------------------------------
+
+Show 
+	Class == "Omen"
+	BaseType == "An Audience with the King" "Omen of Dextral Annulment" "Omen of Dextral Erasure" "Omen of Greater Annulment" "Omen of Sinistral Alchemy" "Omen of Sinistral Annulment" "Omen of Sinistral Erasure" "Omen of Whittling"
+	SetFontSize 45
+	SetTextColor 0 0 125 255
+	SetBorderColor 0 0 125 255
+	SetBackgroundColor 255 255 255 255
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+PlayAlertSound 6 300
+
+Show 
+	Class == "Omen"
+	BaseType == "Omen of Corruption" "Omen of Amelioration"
+	SetFontSize 40
+	SetTextColor 20 240 240 255
+	SetBorderColor 240 0 0 255
+	SetBackgroundColor 70 0 20 255
+	PlayEffect Red
+	MinimapIcon 2 Red Triangle
+PlayAlertSound 2 300
+
+Show 
+	Class == "Omen"
+	BaseType "Omen of Sinistral Coronation" "Omen of Resurgence" "Omen of Refreshment" "Omen of Sinistral Exaltation" "Omen of Dextral Alchemy" "Omen of Dextral Coronation" "Omen of Dextral Exaltation" "Omen of Greater Exaltation"
+	SetFontSize 35
+	SetTextColor 13 170 20 255
+	SetBorderColor 240 0 0 255
+	SetBackgroundColor 100 0 100 255
+	PlayEffect Red
+	MinimapIcon 0 Red Kite
+PlayAlertSound 2 300
+
+#--------------------------
+# Socketables and Special Character Equipment
+#--------------------------
+
+# Special A Tier - League specific socketables and jewels
+Show 
+BaseType "Soul Core" "Timeless"
+SetTextColor 0 240 190
+SetBorderColor 0 240 190
+SetFontSize 30
+MinimapIcon 2 Cyan Triangle
+PlayEffect Cyan
+
+# Special B Tier - Any Runes and Charms
+Show 
+BaseType " Rune"
+SetFontSize 30
+SetTextColor 0 240 190
+PlayEffect Cyan Temp
+
+# Fragments
+Show
+BaseType "Barya" "Ultimatum" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate"
+SetTextColor 255 207 255
+SetBorderColor 255 207 255
+SetBackgroundColor 65 20 80
+PlayAlertSound 2 300
+PlayEffect White
+MinimapIcon 1 White Square
+SetFontSize 30
+
+#===============================================================================================================
+# Other currency 
+#===============================================================================================================
+
+Show
+    Class "Currency"
+    SetTextColor 255 207 132
+    PlayEffect Grey
+    MinimapIcon 1 White Circle
