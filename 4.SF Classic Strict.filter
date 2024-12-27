@@ -500,7 +500,7 @@ Show
 	SetBackgroundColor 255 255 255 255
 	PlayEffect Red
 	MinimapIcon 0 Red Star
-	PlayAlertSound 6 300
+	PlayAlertSound 2 300
 
 #----------------------------
 ### Mid Tier
