@@ -9,13 +9,13 @@ Este repositório contém um filtro personalizado para o jogo *Path of Exile 2*.
 ## Requisitos
 
 - **Path of Exile 2** instalado em seu computador.
-- Acesso ao repositório do filtro no GitHub: [danielwerner-dev/poe2-filter](https://github.com/danielwerner-dev/poe2-filter).
+- Acesso ao repositório do filtro no GitHub: [Releases](https://github.com/danielwerner-dev/poe2-filter/releases).
 
 ## Passos para Instalar o Filtro
 
 ### 1. Baixar o Filtro
 
-1. Acesse o repositório do filtro [danielwerner-dev/poe2-filter](https://github.com/danielwerner-dev/poe2-filter).
+1. Acesse o repositório do filtro [Releases](https://github.com/danielwerner-dev/poe2-filter/releases).
 2. Na página do repositório, clique no botão **Code** (código).
 3. Escolha a opção **Download ZIP** e baixe o arquivo compactado para o seu computador.
    
