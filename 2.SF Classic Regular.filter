@@ -1,9 +1,9 @@
-
 #===============================================================================================================
 #  StarFox
 #===============================================================================================================
 
 # Twitch - https://www.twitch.tv/starf0xttv
+
 #===============================================================================================================
 # Gold
 #===============================================================================================================
@@ -88,9 +88,9 @@ Show
 	#ItemLevel >= 75
 	#Sockets >= 2
 	SetFontSize  30
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
-	SetBackgroundColor 17 59 166 255
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 47 0 74 255
 	PlayEffect Purple
 	MinimapIcon 1 Purple Diamond
 
@@ -396,7 +396,7 @@ Hide
 
 Hide
 ItemLevel >= 1
-ItemLevel <= 10
+ItemLevel <= 1
 BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
 
 Hide
@@ -426,7 +426,7 @@ MinimapIcon 1 Cyan Triangle
 SetFontSize 30
 
 Show
-BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
+BaseType "Uncut Skill Gem" "Uncut Skill Gem"
 ItemLevel >= 20
 SetFontSize 40
 SetTextColor 255 0 0 255
