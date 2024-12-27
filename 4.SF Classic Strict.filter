@@ -509,12 +509,13 @@ Show
 	Class == "Stackable Currency"
 	BaseType == "Exalted Orb"
 	SetFontSize 45
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
-	SetBackgroundColor 42 191 245 255
-	PlayEffect Blue
-	MinimapIcon 0 Blue Circle
-	PlayAlertSound 6 300
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	PlayAlertSound 2 300
+
 
 Show 
 	Class == "Stackable Currency"
@@ -548,6 +549,18 @@ Show
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 0 200 25 170
+	
+Show
+	Class == "Stackable Currency"
+	BaseType == "Regal Shard" "Chance Shard"
+	SetFontSize 32
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 203 108 27 255
+	PlayEffect Red
+	MinimapIcon 0 Red Circle
+	PlayAlertSound 2 300
+
 
 Hide 
 	Class == "Stackable Currency"
@@ -559,7 +572,7 @@ Hide
 
 Hide 
 	Class == "Stackable Currency"
-	BaseType == "Alchemy Shard" "Chaos Shard" "Chance Shard" "Regal Shard"
+	BaseType == "Alchemy Shard" "Chaos Shard"
 	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
