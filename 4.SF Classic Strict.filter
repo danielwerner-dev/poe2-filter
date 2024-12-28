@@ -78,7 +78,7 @@ PlayAlertSound 2 300
 Show 
 	Rarity Magic Rare
 	Class == "Quarterstaves"
-	BaseType == "Expert Gothic Quarterstaff"
+	BaseType == "Expert Gothic Quarterstaff" "Expert Slicing Quarterstaff"
 	SetFontSize 40
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -86,6 +86,22 @@ Show
 	PlayEffect Purple
 	MinimapIcon 1 Purple Diamond
 
+
+#------------------------------------
+# Magic Weapons
+#------------------------------------
+
+Show 
+	Rarity Magic Rare
+	Class == "Wands"
+	BaseType == "Siphoning Wand" "Attuned Wand" "Volatile Wand"
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
+	
 
 #------------------------------------
 # Helmets
@@ -172,7 +188,7 @@ Show
 Show 
 	Rarity Magic Rare
 	Class == "Body Armours"
-	BaseType == "Expert Studded Vest"
+	BaseType == "Expert Studded Vest" "Expert Scalper's Jacket" "Expert Waxed Jacket"
 	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -437,7 +453,6 @@ Show
     SetFontSize 30
 	PlayEffect Pink
 	MinimapIcon 0 Pink Star
-PlayAlertSound 4 300
 
 #--------------------------
 #Mid Teir Waystones
@@ -519,7 +534,7 @@ Show
 
 Show 
 	Class == "Stackable Currency"
-	BaseType == "Orb of Alchemy" "Regal Orb" "Orb of Annulment" "Gold Key" "Vaal Orb" "Glassblower's Bauble" "Orb of Chance" "Exalted Shard"
+	BaseType == "Orb of Alchemy" "Orb of Annulment" "Gold Key" "Vaal Orb" "Glassblower's Bauble" "Orb of Chance" "Exalted Shard"
 	SetFontSize 38
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -544,7 +559,7 @@ Show
 
 Show 
 	Class == "Stackable Currency"
-	BaseType == "Lesser Jeweller's Orb" "Broken Circle Artifact" "Order Artifact" "Bronze Key" "Exotic Coinage" "Black Scythe Artifact" "Sun Artifact"
+	BaseType == "Lesser Jeweller's Orb" "Regal Orb" "Broken Circle Artifact" "Order Artifact" "Bronze Key" "Exotic Coinage" "Black Scythe Artifact" "Sun Artifact"
 	SetFontSize 30
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -552,7 +567,7 @@ Show
 	
 Show
 	Class == "Stackable Currency"
-	BaseType == "Regal Shard" "Chance Shard"
+	BaseType == "Chance Shard"
 	SetFontSize 32
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -564,7 +579,7 @@ Show
 
 Hide 
 	Class == "Stackable Currency"
-	BaseType == "Orb of Transmutation" "Orb of Augmentation"
+	BaseType == "Orb of Transmutation" "Orb of Augmentation" "Regal Shard"
 	SetFontSize 30
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
