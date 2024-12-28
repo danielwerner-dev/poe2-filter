@@ -188,7 +188,7 @@ Show
 Show 
 	Rarity Magic Rare
 	Class == "Body Armours"
-	BaseType == "Expert Studded Vest" "Expert Scalper's Jacket" "Expert Waxed Jacket"
+	BaseType == "Expert Studded Vest" "Expert Scalper's Jacket" "Expert Waxed Jacket" "Expert Hexer's Robe"
 	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
