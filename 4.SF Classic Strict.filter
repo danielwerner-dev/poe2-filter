@@ -188,7 +188,7 @@ Show
 Show 
 	Rarity Magic Rare
 	Class == "Body Armours"
-	BaseType == "Expert Studded Vest" "Expert Scalper's Jacket" "Expert Waxed Jacket" "Expert Hexer's Robe"
+	BaseType == "Expert Studded Vest" "Expert Scalper's Jacket" "Expert Waxed Jacket" "Expert Hexer's Robe" "Expert Keth Raiment"
 	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -212,6 +212,18 @@ Show
 	MinimapIcon 1 Purple Diamond
 
 #------------------------------------
+# Quivers
+#------------------------------------
+
+Show
+    Rarity Magic Normal
+    Class == "Primed Quiver"
+    SetFontSize 30
+    SetTextColor 255 0 255 255
+    SetBorderColor 255 0 255 255
+    SetBackgroundColor 0 0 0 150
+
+#------------------------------------
 # Shields
 #------------------------------------         
 
@@ -222,20 +234,6 @@ Hide
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 0 0 0 150
-
-
-#------------------------------------
-# Quivers
-#------------------------------------
-
-Hide
-    Rarity Rare Magic Normal
-    Class == "Quivers"
-    SetFontSize 30
-    SetTextColor 255 0 255 255
-    SetBorderColor 255 0 255 255
-    SetBackgroundColor 0 0 0 150
-
 
 #------------------------------------
 # General Weapons
@@ -257,7 +255,6 @@ Show
     SetTextColor 255 0 255 255
     SetBorderColor 255 0 255 255
     SetBackgroundColor 0 0 0 150
-
 
 #------------------------------------
 #  Jewels
@@ -290,7 +287,6 @@ Show
 	PlayEffect Orange
 	MinimapIcon 0 Orange Pentagon
 	PlayAlertSound 3 300
-
 
 #------------------------------------
 #  Relics
