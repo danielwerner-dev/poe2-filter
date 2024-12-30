@@ -217,7 +217,8 @@ Show
 
 Show
     Rarity Magic Normal
-    Class == "Primed Quiver"
+    Class == "Quivers"
+	BaseType == "Primed Quiver"
     SetFontSize 30
     SetTextColor 255 0 255 255
     SetBorderColor 255 0 255 255
