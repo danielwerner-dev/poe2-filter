@@ -220,9 +220,11 @@ Show
     Class == "Quivers"
 	BaseType == "Primed Quiver"
     SetFontSize 30
-    SetTextColor 255 0 255 255
-    SetBorderColor 255 0 255 255
-    SetBackgroundColor 0 0 0 150
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 17 59 166 255
+	PlayEffect Purple
+	MinimapIcon 1 Purple Diamond
 
 #------------------------------------
 # Shields
