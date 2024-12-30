@@ -157,7 +157,7 @@ Show
 Show 
 	Rarity Normal Magic Rare
 	Class == "Amulets"
-	BaseType == "Gold Amulet"
+	BaseType == "Gold Amulet" "Stellar Amulet"
 	SetFontSize 30
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -172,7 +172,7 @@ Show
 Show 
 	Rarity Magic Rare
 	Class == "Rings"
-	BaseType == "Amethyst Ring" "Gold Ring" "Breach Ring"
+	BaseType == "Amethyst Ring" "Gold Ring" "Breach Ring" "Shappire Ring"
 	SetFontSize 30
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
