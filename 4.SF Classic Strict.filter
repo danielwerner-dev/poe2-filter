@@ -434,7 +434,7 @@ Show
 	SetFontSize 40
 	PlayEffect Red Temp
 	MinimapIcon 2 Red Circle
-	PlayAlertSound 6 300
+	PlayAlertSound 5 300
 	
 #--------------------------
 #High Teir waystones
