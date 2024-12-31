@@ -25,23 +25,23 @@ Este repositório contém um filtro personalizado para o jogo *Path of Exile 2*.
    ```bash
    git clone https://github.com/danielwerner-dev/poe2-filter.git
 
-2. Extrair e Copiar o Filtro
+4. Extrair e Copiar o Filtro
 Se você fez o download do arquivo ZIP, extraia o conteúdo em uma pasta de sua escolha.
 
 Dentro da pasta extraída, você encontrará o arquivo do filtro (geralmente com a extensão .filter).
 
 Copie o arquivo .filter para o diretório de filtros do Path of Exile 2. O local padrão para os filtros no seu sistema é:
 
-Windows: C:\Usuários\SeuUsuario\Documents\My Games\Path of Exile 2\
-Mac: /Users/SeuUsuario/Documentos/My Games/Path of Exile 2/
-Linux: /home/SeuUsuario/.local/share/Path of Exile 2/
-3. Ativar o Filtro no Jogo
+- Windows: C:\Usuários\SeuUsuario\Documents\My Games\Path of Exile 2\
+- Mac: /Users/SeuUsuario/Documentos/My Games/Path of Exile 2/
+- Linux: /home/SeuUsuario/.local/share/Path of Exile 2/
+5. Ativar o Filtro no Jogo
 Abra o Path of Exile 2.
 No menu principal, vá até as Configurações do jogo.
 Encontre a opção de Filtros de Itens (geralmente na seção de interface ou jogabilidade).
 Selecione o filtro copiado no passo anterior na lista de filtros disponíveis.
 Ative o filtro e ajuste as configurações conforme preferir (se houver opções adicionais para personalizar a experiência do filtro).
-4. Testar e Ajustar
+6. Testar e Ajustar
 Após ativar o filtro, entre no jogo e veja se ele está funcionando corretamente.
 Se você não estiver vendo o filtro ou se houver algo errado, tente reiniciar o jogo ou verificar se o arquivo do filtro está no diretório correto.
 Personalização do Filtro
