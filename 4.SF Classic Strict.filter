@@ -170,7 +170,7 @@ Show
 #------------------------------------
 
 Show 
-	Rarity Magic Rare
+	Rarity Normal Magic Rare
 	Class == "Rings"
 	BaseType == "Amethyst Ring" "Gold Ring" "Breach Ring" "Sapphire Ring"
 	SetFontSize 30
