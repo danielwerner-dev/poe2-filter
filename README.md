@@ -1,6 +1,7 @@
 # PoE 2 Filter - By StarFox
 
-![image](https://github.com/user-attachments/assets/d3ac164c-b3ac-4458-abe8-4e7f72d4e391)
+![image](https://github.com/user-attachments/assets/180d83a2-34b8-4cc9-882b-a12acb874ed8)
+
 
 # Instruções para Instalar Filtro no Path of Exile 2
 
