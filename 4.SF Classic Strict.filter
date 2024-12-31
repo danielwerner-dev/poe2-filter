@@ -396,7 +396,7 @@ PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 
 Show
-BaseType "Uncut Skill Gem" "Uncut Skill Gem"
+BaseType "Uncut Skill Gem" "Uncut Spirit Gem"
 ItemLevel >= 20
 SetFontSize 40
 SetTextColor 255 0 0 255
