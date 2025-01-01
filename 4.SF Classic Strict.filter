@@ -155,13 +155,13 @@ Show
 #------------------------------------
 
 Show 
-	Rarity Normal Magic Rare
+	Rarity Normal  Magic
 	Class == "Amulets"
 	BaseType == "Gold Amulet" "Stellar Amulet"
-	SetFontSize 30
+	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
-	SetBackgroundColor 17 59 166 255
+	SetBackgroundColor 180 0 255 255
 	PlayEffect Purple
 	MinimapIcon 1 Purple Diamond
 
@@ -170,16 +170,16 @@ Show
 #------------------------------------
 
 Show 
-	Rarity Normal Magic Rare
+	Rarity Normal Magic
 	Class == "Rings"
 	BaseType == "Amethyst Ring" "Gold Ring" "Breach Ring" "Sapphire Ring"
-	SetFontSize 30
+	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
-	SetBackgroundColor 17 59 166 255
+	SetBackgroundColor 180 0 255 255
 	PlayEffect Purple
 	MinimapIcon 1 Purple Diamond
-        PlayAlertSound 13 100
+    PlayAlertSound 13 100
 
 #------------------------------------
 # Body Armours
@@ -834,8 +834,8 @@ Show
 Show
 	Class == "Pinnacle Keys"
 	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
+	SetTextColor 180 0 255 255
+	SetBorderColor 180 0 255 255
 	SetBackgroundColor 255 255 255 255
 	PlayEffect Red
 	MinimapIcon 0 Red Star
