@@ -155,7 +155,7 @@ Show
 #------------------------------------
 
 Show 
-	Rarity Normal  Magic
+	Rarity Normal Magic
 	Class == "Amulets"
 	BaseType == "Gold Amulet" "Stellar Amulet"
 	SetFontSize 35
@@ -170,7 +170,7 @@ Show
 #------------------------------------
 
 Show 
-	Rarity Normal Magic
+	Rarity Normal Magic 
 	Class == "Rings"
 	BaseType == "Amethyst Ring" "Gold Ring" "Breach Ring" "Sapphire Ring"
 	SetFontSize 35
@@ -692,7 +692,17 @@ Show
 	#ItemLevel <= 85
 	Rarity Rare 
 	Class == "Rings"
-	BaseType == "Breach Ring"
+	BaseType == "Breach Ring" "Gold Ring" "Sapphire Ring" "Pearl Ring" "Prismatic Ring"
+	SetFontSize 35
+	SetTextColor 20 240 240 255
+	SetBorderColor 240 0 0 255
+	SetBackgroundColor 70 0 20 255
+
+Show 
+	#ItemLevel <= 85
+	Rarity Rare 
+	Class == "Amulets"
+	BaseType == "Stellar Amulet" "Gold Amulet"
 	SetFontSize 35
 	SetTextColor 20 240 240 255
 	SetBorderColor 240 0 0 255
