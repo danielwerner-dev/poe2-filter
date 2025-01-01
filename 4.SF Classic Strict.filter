@@ -404,7 +404,7 @@ SetBorderColor 255 0 0 255
 SetBackgroundColor 255 255 255 255
 PlayAlertSound 6 300
 PlayEffect Cyan
-MinimapIcon 1 Cyan Triangle
+MinimapIcon 1 Cyan Star
 
 #--------------------------
 # Overrides - Uniques, Valuables
@@ -690,13 +690,13 @@ PlayAlertSound 2 300
 
 Show 
 	#ItemLevel <= 85
-	Rarity Rare Normal Magic
+	Rarity Rare 
 	Class == "Rings"
 	BaseType == "Breach Ring"
-	SetFontSize 30
-	SetTextColor 0 240 190 255
-	SetBorderColor 0 240 190 255
-	SetBackgroundColor 20 20 0 255
+	SetFontSize 35
+	SetTextColor 20 240 240 255
+	SetBorderColor 240 0 0 255
+	SetBackgroundColor 70 0 20 255
 
 #------------------------------------
 #   Essence Orbs
