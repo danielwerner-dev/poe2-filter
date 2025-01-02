@@ -657,7 +657,18 @@ Show
 
 Show 
 	Class == "Stackable Currency"
-	BaseType == "Breachstone" "Distilled Fear" "Distilled Isolation" "Distilled Suffering" "Breach Splinter"
+	BaseType == "Breach Splinter"
+	SetFontSize 36
+	SetTextColor 255 255 255 255
+SetBorderColor 210 20 210 255
+SetBackgroundColor 65 20 80
+	PlayEffect Blue
+	MinimapIcon 0 Blue Circle
+	PlayAlertSound 2 300
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Breachstone" "Distilled Fear" "Distilled Isolation" "Distilled Suffering"
 	SetFontSize 36
 	SetTextColor 255 255 255 255
 	SetBorderColor 0 0 255 255
@@ -679,7 +690,7 @@ Show
 
 Show 
 	Class == "Stackable Currency"
-	BaseType "Adaptive Catalyst" "Chayula's Catalyst" "Flesh Catalyst" "Reaver Catalyst" "Skittering Catalyst" "Uul-Netol's Catalyst" "Breach Splinter" "Carapace Catalyst" "Esh's Catalyst" "Neural Catalyst" "Tul's Catalyst" "Xoph's Catalyst"
+	BaseType "Adaptive Catalyst" "Chayula's Catalyst" "Flesh Catalyst" "Reaver Catalyst" "Skittering Catalyst" "Uul-Netol's Catalyst" "Carapace Catalyst" "Esh's Catalyst" "Neural Catalyst" "Tul's Catalyst" "Xoph's Catalyst"
 	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 0 0 255 255
