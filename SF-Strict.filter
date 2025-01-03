@@ -490,31 +490,31 @@ Show
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
 	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
-	PlayAlertSound 6 300
 
 Show 
 	Class == "Stackable Currency"
 	BaseType == "Greater Jeweller's Orb"
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 240 90 35
+	PlayAlertSound 1 300
+	PlayEffect White
+	MinimapIcon 1 Yellow Circle
 	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
-	PlayEffect Red
-	MinimapIcon 0 Red Star
-	PlayAlertSound 6 300
 
 Show 
 	Class == "Stackable Currency"
 	BaseType ==  "Chaos Orb" "Albino Rhoa Feather" "Mirror Shard"
-	SetFontSize 45
-	SetTextColor 255 0 0 255
-	SetBorderColor 255 0 0 255
-	SetBackgroundColor 255 255 255 255
-	PlayEffect Red
-	MinimapIcon 0 Red Star
+	SetTextColor 255 207 132
+	SetBorderColor 255 207 132
+	SetBackgroundColor 76 51 12
 	PlayAlertSound 2 300
+	PlayEffect White
+	MinimapIcon 2 White Circle
+	SetFontSize 40
 
 #----------------------------
 ### Mid Tier
