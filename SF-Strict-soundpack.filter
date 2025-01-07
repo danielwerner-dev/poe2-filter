@@ -499,7 +499,18 @@ Hide
 #----------------------------
 Show 
 	Class == "Stackable Currency"
-	BaseType == "Divine Orb" "Mirror of Kalandra" "Perfect Jeweller's Orb"
+	BaseType == "Divine Orb"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	CustomAlertSound "divine-power-cassia-10.mp3" 200
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show 
+	Class == "Stackable Currency"
+	BaseType == "Mirror of Kalandra" "Perfect Jeweller's Orb"
 	SetFontSize 45
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
