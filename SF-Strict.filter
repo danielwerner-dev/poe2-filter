@@ -60,7 +60,7 @@ Hide
 Show 
 	Rarity Normal Magic Rare
 	Class == "Tablet"
-	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Precursor Tablet" "Expedition Precursor Tablet" "Ritual Precursor Tablet"
+	BaseType == "Breach Precursor Tablet" "Delirium Precursor Tablet" "Ritual Precursor Tablet"
 	SetFontSize 40
 	SetTextColor 206 0 138 255
 	SetBorderColor 206 0 138 255
