@@ -69,6 +69,18 @@ Show
 	MinimapIcon 0 Red Square
 PlayAlertSound 2 300
 
+Hide
+	Rarity Normal Magic Rare
+	Class == "Tablet"
+	BaseType == "Precursor Tablet" "Expedition Precursor Tablet"
+	SetFontSize 40
+	SetTextColor 206 0 138 255
+	SetBorderColor 206 0 138 255
+	SetBackgroundColor 0 0 0 255
+	PlayEffect Red
+	MinimapIcon 0 Red Square
+PlayAlertSound 2 300
+
 #===============================================================================================================
 # Items
 #===============================================================================================================
